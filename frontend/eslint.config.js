@@ -6,6 +6,7 @@ import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
+
 export default defineConfig([
   globalIgnores(['dist']),
   {
