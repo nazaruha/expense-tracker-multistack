@@ -1,4 +1,4 @@
-import type { ICategory } from './category.ts';
+import type { ICategory } from '@/types/category.ts';
 
 export interface ITransaction {
   id: number;
